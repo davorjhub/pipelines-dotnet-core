@@ -16,4 +16,4 @@ steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
 - download: current
-  artifact: WebApp
+  artifact: pipelines-dotnet-core.dll
